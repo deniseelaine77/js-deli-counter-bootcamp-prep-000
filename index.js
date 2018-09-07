@@ -41,5 +41,5 @@ function currentLine(array){
     list.push(" " + (i+1) + ". " + array[i] + "" );
     }
   }
-  return "The line is currently: " + list;
+  return "The line is currently:" + list;
   }
