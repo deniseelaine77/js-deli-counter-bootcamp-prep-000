@@ -27,9 +27,10 @@ function currentLine(array){
   if(array.length === 0) {
     return "The line is currently empty.";
   } else {
-    var list={};
+    var list=[];
     var i = 0
     for(i; i<array.length; i++)
-    
+    list.push((array.indexOf[i]+1) + ". " + array[i])
   }
+  return list
   }
