@@ -14,10 +14,20 @@ function nowServing(line) {
   }
 }
 
+// function johnLennonFacts(array){
+//   var excl = [];
+//   let i = 0;
+//   while (i < array.length) {
+//     excl.push(array[i] + "!!!"); i++
+//   }
+//   return excl
+// }
+
 function currentLine(array){
   if(array.length === 0) {
     return "The line is currently empty.";
   } else {
+    var list={};
     var i = 0
     for(i; i<array.length; i++)
     
